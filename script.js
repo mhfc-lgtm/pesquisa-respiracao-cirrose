@@ -1,4 +1,4 @@
-/* Respiração na cirrose — interações da página
+/* Respiração e fígado — interações da página
  * 1. "Letra maior": aumenta o texto da página toda (lembra a escolha neste aparelho).
  * 2. "Ouvir esta parte": lê a seção em voz alta com a voz do próprio celular/computador.
  * 3. Barra fixa "Quero participar" no celular, depois que o botão principal sai da tela.
@@ -146,7 +146,7 @@
   var zap = document.querySelector("[data-whatsapp]");
   if (zap && /^https?:/.test(window.location.protocol)) {
     var endereco = window.location.origin + window.location.pathname;
-    var msg = "Pesquisa do HULW sobre respiração na cirrose: avaliação gratuita, em um único encontro. Veja: " + endereco;
+    var msg = "Pesquisa do HULW sobre respiração e doença do fígado: avaliação gratuita, em um único encontro. Veja: " + endereco;
     zap.href = "https://wa.me/?text=" + encodeURIComponent(msg);
   }
 })();

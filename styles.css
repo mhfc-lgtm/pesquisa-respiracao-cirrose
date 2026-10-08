@@ -274,7 +274,7 @@ mark {
   font-weight: 340;
   line-height: 1.06;
   letter-spacing: -0.02em;
-  max-width: 13ch;
+  max-width: 15ch;
   margin-bottom: var(--space-lg);
 }
 
