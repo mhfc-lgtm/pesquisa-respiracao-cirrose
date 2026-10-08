@@ -1,0 +1,68 @@
+/* Hallmark · tokens · route: custom (tuned)
+ * vibe: "caderno quadriculado de exame, caneta azul, marca-texto"
+ * axes: light / roman-serif / cool (ballpoint blue ~266°)
+ */
+:root {
+  /* Papel e tinta */
+  --color-paper:      oklch(92.5% 0.035 245);  /* azul-céu claro: a "mesa" */
+  --color-paper-2:    oklch(99%   0.004 255);  /* folha branca */
+  --color-paper-3:    oklch(94.5% 0.014 255);
+  --color-grid:       oklch(89%   0.035 250);
+  --color-grid-major: oklch(83%   0.050 250);
+  --color-rule:       oklch(84%   0.020 258);
+  --color-muted:      oklch(44%   0.030 262);
+  --color-ink:        oklch(23%   0.040 265);
+
+  /* Caneta esferográfica azul (acento) e marca-texto */
+  --color-pen:        oklch(45%   0.200 266);
+  --color-pen-deep:   oklch(36%   0.170 266);
+  --color-pen-wash:   oklch(93%   0.030 266);
+  --color-on-pen:     oklch(98.5% 0.005 255);
+  --color-mark:       oklch(93%   0.150 103);
+  --color-focus:      oklch(50%   0.220 266);
+
+  /* Tipos */
+  --font-display: "Literata", "Iowan Old Style", Georgia, serif;
+  --font-body:    "Atkinson Hyperlegible Next", "Segoe UI", Roboto, sans-serif;
+
+  /* Escala (terça maior, base 19px) */
+  --text-sm:      1rem;
+  --text-base:    1.1875rem;
+  --text-md:      1.4375rem;
+  --text-lg:      clamp(1.75rem, 1.6vw + 1.2rem, 2.375rem);
+  --text-display: clamp(2.5rem, 4.2vw + 1rem, 4.5rem);
+
+  /* Espaço (4 pt) */
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-sm:  0.75rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* Quadriculado */
+  --grid-cell: 22px;
+
+  /* Traço e cantos */
+  --rule-hair: 1px;
+  --rule-pen:  2.25px;
+  --radius-sm: 4px;
+  --radius-md: 10px;
+
+  /* Movimento */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long:  420ms;
+  --dur-trace: 2600ms;
+
+  /* Camadas */
+  --z-bar:  20;
+  --z-skip: 30;
+}
