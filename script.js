@@ -146,7 +146,7 @@
   var zap = document.querySelector("[data-whatsapp]");
   if (zap && /^https?:/.test(window.location.protocol)) {
     var endereco = window.location.origin + window.location.pathname;
-    var msg = "Pesquisa do HULW sobre respiração e doença do fígado: avaliação gratuita, em um único encontro. Veja: " + endereco;
+    var msg = "Pesquisa do HULW sobre respiração e doença no fígado: avaliação gratuita, em um único encontro. Veja: " + endereco;
     zap.href = "https://wa.me/?text=" + encodeURIComponent(msg);
   }
 })();
