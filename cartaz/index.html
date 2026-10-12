@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cartaz: respiração e fígado</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap">
+  <style>
+    /* Cartaz A4 (794 x 1123 px) para imprimir e afixar no HULW.
+       Mesma identidade do site: folha quadriculada sobre a mesa azul-céu,
+       traço de caneta azul e marca-texto. Tudo em posição absoluta para
+       a importação no Canva manter o lugar de cada elemento. */
+    html, body { margin: 0; background: #FFFFFF; }
+    .pagina {
+      position: relative; width: 794px; height: 1123px; overflow: hidden;
+      background: #D4E9FD; color: #141C30;
+      font-family: "Atkinson Hyperlegible Next", "Segoe UI", sans-serif;
+    }
+    .abs { position: absolute; margin: 0; }
+    .serif { font-family: "Literata", Georgia, serif; }
+
+    .folha { left: 32px; top: 32px; width: 730px; height: 880px; }
+
+    .quem-faz { left: 72px; top: 62px; width: 640px; font-size: 17px; line-height: 1.3; color: #4A5364; }
+    .titulo { left: 69px; top: 86px; width: 580px; font-size: 68px; line-height: 1.04; font-weight: 600; letter-spacing: -0.01em; }
+    .convite { left: 72px; top: 234px; width: 640px; font-size: 38px; line-height: 1.15; font-weight: 400; color: #132D94; }
+
+    .traco { left: 72px; top: 304px; width: 640px; height: 170px; }
+    .rotulo { font-size: 16px; line-height: 1.2; color: #4A5364; }
+    .r-eixo { left: 84px; top: 298px; }
+    .r-tempo { left: 652px; top: 480px; }
+    .r-normal { left: 104px; top: 420px; font-size: 18px; color: #141C30; }
+    .r-enche { left: 482px; top: 300px; font-size: 18px; color: #141C30; }
+    .r-sopra { left: 526px; top: 372px; width: 110px; font-size: 18px; color: #141C30; }
+
+    .fatos { left: 72px; top: 520px; width: 352px; }
+    .fato { margin: 0 0 17px; }
+    .fato h2 { margin: 0 0 4px; font-family: "Literata", Georgia, serif; font-size: 23px; line-height: 1.2; font-weight: 600; }
+    .fato p { margin: 0; font-size: 17px; line-height: 1.38; }
+
+    .marca { left: 452px; top: 514px; width: 262px; height: 66px; background: #FAEC6A; transform: rotate(-1.2deg); }
+    .aponte { left: 462px; top: 518px; width: 250px; font-size: 24px; line-height: 1.2; font-weight: 600; }
+    .laco { left: 440px; top: 592px; width: 290px; height: 290px; }
+    .qr { left: 476px; top: 628px; width: 218px; height: 218px; image-rendering: pixelated; }
+
+    .quem-pode-h { left: 72px; top: 932px; width: 650px; font-size: 21px; line-height: 1.2; font-weight: 600; }
+    .quem-pode { left: 72px; top: 960px; width: 650px; font-size: 16.5px; line-height: 1.38; }
+    .creditos { left: 72px; top: 1040px; width: 650px; font-size: 12px; line-height: 1.42; color: #4A5364; }
+  </style>
+</head>
+<body>
+  <div class="pagina" data-document-role="page" data-label="Cartaz A4">
+    <img class="abs folha" src="grade.png" alt="">
+
+    <p class="abs quem-faz">Pesquisa do Hospital Universitário Lauro Wanderley (HULW), em João Pessoa</p>
+    <h1 class="abs titulo serif">Você tem doença no fígado?</h1>
+    <p class="abs convite serif">Venha medir o seu fôlego.</p>
+
+    <img class="abs traco" src="traco.svg" alt="Desenho de um exame de respiração: a linha sobe e desce devagar na respiração normal, sobe bem alto quando a pessoa enche o peito e cai rápido quando ela sopra com toda força.">
+    <p class="abs rotulo r-eixo">ar nos pulmões</p>
+    <p class="abs rotulo r-tempo">tempo</p>
+    <p class="abs rotulo r-normal">respirando normal</p>
+    <p class="abs rotulo r-enche">enche o peito</p>
+    <p class="abs rotulo r-sopra">sopra com toda força</p>
+
+    <div class="abs fatos">
+      <div class="fato">
+        <h2>Um encontro só</h2>
+        <p>De 40 a 60 minutos, terça ou quinta à tarde, no HULW.</p>
+      </div>
+      <div class="fato">
+        <h2>Nenhum teste usa agulha</h2>
+        <p>Você sopra num tubo, puxa e sopra com força e senta e levanta de uma cadeira por 1 minuto.</p>
+      </div>
+      <div class="fato">
+        <h2>Não custa nada</h2>
+        <p>E não muda em nada o seu tratamento.</p>
+      </div>
+      <div class="fato">
+        <h2>Preencher não obriga a nada</h2>
+        <p>O código abre a página da pesquisa. Você deixa um telefone e a equipe liga.</p>
+      </div>
+    </div>
+
+    <div class="abs marca"></div>
+    <p class="abs aponte serif">Aponte a câmera do celular aqui</p>
+    <img class="abs laco" src="laco.svg" alt="">
+    <img class="abs qr" src="qr.png" alt="Código QR que abre a página da pesquisa: mhfc-lgtm.github.io/pesquisa-respiracao-cirrose">
+
+    <p class="abs quem-pode-h serif">Quem pode participar</p>
+    <p class="abs quem-pode">Adultos, com 18 anos ou mais, que têm cirrose (um tipo de doença no fígado) confirmada pelo médico e que conseguem sentar e levantar de uma cadeira sozinhos. Se você cuida de alguém assim, pode preencher por essa pessoa.</p>
+    <p class="abs creditos">Doutorado de Fernanda Ferreira de Andrade (Faculdade de Medicina da USP), em parceria com a UFPB. Aprovada pelo Comitê de Ética em Pesquisa do HULW/UFPB, CAAE 99400626.5.0000.5183. Dúvidas sobre os seus direitos: (83) 3206-0754 ou cep.hulw@ebserh.gov.br. Página: mhfc-lgtm.github.io/pesquisa-respiracao-cirrose</p>
+  </div>
+</body>
+</html>
